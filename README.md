@@ -291,5 +291,4 @@ Proprietary · Emerson Automation Solutions · Pune, India
 
 ---
 
-**Built with ❤️ by Emerson DCS Engineering Team**  
-*v3.0 — Image Edition*
+
