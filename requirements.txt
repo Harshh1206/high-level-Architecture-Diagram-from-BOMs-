@@ -1,0 +1,22 @@
+# ── Web Framework ─────────────────────────────────────────────────────────────
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12        # required for FastAPI file uploads
+pydantic==2.10.3
+ 
+# ── BOM Parsing ───────────────────────────────────────────────────────────────
+pandas==2.2.3
+openpyxl==3.1.5                 # .xlsx read/write
+xlrd==2.0.1                     # legacy .xls read
+ 
+# ── PowerPoint Generation ─────────────────────────────────────────────────────
+python-pptx==1.0.2
+lxml==5.3.0                     # xml manipulation for dashed borders
+ 
+# ── Streamlit (legacy app.py — not needed for React build) ────────────────────
+streamlit>=1.41.0             # recent version compatible with Starlette 0.40+
+ 
+# ── Dev / Optional ────────────────────────────────────────────────────────────
+# watchfiles==0.24.0            # faster uvicorn --reload (auto-installed with uvicorn[standard])s
+Pillow>=10.0.0                   # PPTX preview rendering
+ 
